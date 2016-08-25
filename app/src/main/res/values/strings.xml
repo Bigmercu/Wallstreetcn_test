@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wallstreetcn_test</string>
+    <string name="longtext">黄金期货投机性净多头头寸创历史新高，黄金股或迎来交易机会，龙头就买这几只</string>
+    <string name="zhongyao">今日重要性:</string>
+    <string name="gold">湖南黄金+66.62</string>
+    <string name="gold1">山东黄金+66.62</string>
+    <string name="gold2">赤峰黄金-66.61</string>
+    <string name="from">8:22来自</string>
+    <string name="source">选股宝</string>
+</resources>

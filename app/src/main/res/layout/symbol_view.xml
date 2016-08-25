@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_stock_down"
+            android:id="@+id/img1"
+            android:scaleType="fitStart"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/gold"
+            android:id="@+id/gold1"
+            android:textSize="13sp"
+            android:textColor="@color/stock_down"
+            android:gravity="center_vertical"/>
+
+</LinearLayout>

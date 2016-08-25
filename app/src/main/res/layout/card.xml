@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="2dp"
+              android:layout_marginBottom="2dp"
+              android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#f1efef">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/longtext"
+                android:id="@+id/longText"
+                android:textColor="#ee000536"
+                android:textSize="17sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/zhongyao"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textColor="#303030"/>
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/sstar"
+                    android:scaleType="fitStart"/>
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/sstar"
+                    android:scaleType="fitStart"/>
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/sstar"
+                    android:scaleType="fitStart"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linear"
+                android:gravity="center"
+                android:measureWithLargestChild="false">
+            </LinearLayout>
+
+            <View
+                android:background="#e7e7e7"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/share"
+                    android:background="#00000000"
+                    android:scaleType="fitStart"
+                    android:id="@+id/share"/>
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="23dp"
+                    android:id="@+id/good"
+                    android:src="@mipmap/heart"
+                    android:background="#00000000"
+                    android:scaleType="fitStart"
+                    android:layout_weight="0.06"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/likeCount"
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textColor="#303030"/>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.95"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/from"
+                    android:layout_gravity="end"
+                    android:gravity="center_vertical"
+                    android:id="@+id/time"
+                    android:textColor="#303030"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/source"
+                    android:gravity="center_vertical"
+                    android:textColor="#54000a"
+                    android:id="@+id/from"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
